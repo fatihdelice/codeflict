@@ -11,7 +11,7 @@ import './global.css'
 const meta = {
   title: 'Codeflict',
   description:
-    'Sleep deprived father. FE Engineer in China. Lover of Ramen and Kpop',
+    'A blog packed with code snippets for software development enthusiasts. We provide in-depth reviews of the latest technologies and practical tips to enhance your coding skills.',
   image: `${WEBSITE_HOST_URL}/og-preview.jpg`,
 }
 
