@@ -4,7 +4,7 @@ import { format, parseISO } from 'date-fns'
 import type { MDXComponents } from 'mdx/types'
 import type { Metadata } from 'next'
 import { useMDXComponent } from 'next-contentlayer/hooks'
-import NextImage from 'next/image'
+import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
@@ -50,7 +50,7 @@ export async function generateMetadata({
 // Define your custom MDX components.
 const mdxComponents: MDXComponents = {
   a: ({ href, children }) => <Link href={href as string}>{children}</Link>,
-  Image: (props) => <NextImage className="rounded-lg" {...props} />,
+  Image: (props) => <Image className="rounded-lg" {...props} />,
 }
 
 const PostLayout = ({ params }: { params: { slug: string } }) => {
@@ -69,7 +69,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
         post.authorUrl && post.authorName && post.authorProfileImageUrl && (
           <Link href={"/"+`${post.authorUrl}`}>
             <div className="overflow-visible relative max-w-sm mt-6 mb-4 flex items-center gap-4">
-              <img className="w-14 h-14 rounded-full shadow-lg" src={post.authorProfileImageUrl} />
+              <img className="w-14 h-14 rounded-full shadow-lg" src={post.authorProfileImageUrl} alt={post.authorName}/>
               <div className="flex flex-col py-5">
                 <strong className="text-slate-900 text-md font-medium dark:text-slate-200">{post.authorName}</strong>
                 <time className="text-sm text-zinc-400" dateTime={post.date}>

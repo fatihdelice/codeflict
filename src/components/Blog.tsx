@@ -18,7 +18,7 @@ export function Blog() {
                     From the blog
                 </h2>
                 <p className="mt-2 leading-8">                    
-                    Discover writers' insights on software and coding, unveiling innovative projects and emerging technologies.
+                    Discover writers&apos; insights on software and coding, unveiling innovative projects and emerging technologies.
                 </p>
             </div>
             <div className="mt-10 space-y-12 border-t border-gray-200 pt-10 dark:border-gray-700">
