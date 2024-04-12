@@ -25,35 +25,6 @@ export function HeroSection() {
             </a>
           </div>
         </div>
-        <div className="mt-12 flex justify-center overflow-x-auto gap-4">
-          <div className="p-0 sm:p-2 grayscale transition duration-200 hover:grayscale-0">
-            <Image src="./references/html.svg" title='HTML' className="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="32" height={32} />
-          </div>
-          <div className="p-0 sm:p-2 grayscale transition duration-200 hover:grayscale-0">
-            <Image src="./references/css.svg" title='CSS' className="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="32" height={32} />
-          </div>
-          <div className="p-0 sm:p-2 flex grayscale transition duration-200 hover:grayscale-0">
-            <Image src="./references/javascript.svg" title='JavaScript' className="h-12 w-auto m-auto" loading="lazy" alt="client logo" width="32" height={32} />
-          </div>
-          <div className="p-0 sm:p-2 grayscale transition duration-200 hover:grayscale-0">
-            <Image src="./references/react.svg" title='React.js' className="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="32" height={32} />
-          </div>
-          <div className="p-0 sm:p-2 grayscale transition duration-200 hover:grayscale-0">
-            <Image src="./references/angular.svg" title='Angular.js' className="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="32" height={32} />
-          </div>
-          <div className="p-0 sm:p-2 flex grayscale transition duration-200 hover:grayscale-0">
-            <Image src="./references/nextjs.svg" title='Next.js' className="h-12 w-auto m-auto" loading="lazy" alt="client logo" width="32" height={32} />
-          </div>
-          <div className="p-0 sm:p-2 grayscale transition duration-200 hover:grayscale-0">
-            <Image src="./references/java.svg" title='Java' className="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="32" height={32} />
-          </div>
-          <div className="p-0 sm:p-2 grayscale transition duration-200 hover:grayscale-0">
-            <Image src="./references/csharp.svg" title='C#' className="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="32" height={32} />
-          </div>
-          <div className="p-0 sm:p-2 grayscale transition duration-200 hover:grayscale-0">
-            <Image src="./references/php.svg" title='PHP' className="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="32" height={32} />
-          </div>
-        </div>
       </div>
   )
 }
