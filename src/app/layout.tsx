@@ -1,12 +1,10 @@
 import { ThemeProvider } from '@/app/providers'
 import { Container } from '@/components/Container'
-import { Navigation } from '@/components/Navigation'
-import { HomeLogoButton } from '@/components/HomeLogoButton'
-import ThemeSwitch from '@/components/ThemeSwitch'
 import { WEBSITE_HOST_URL } from '@/lib/constants'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import './global.css'
+import Header from '@/components/Header'
 
 const meta = {
   title: 'Codeflict',
@@ -56,15 +54,7 @@ export default function RootLayout({
       <body>
         <ThemeProvider attribute="class" defaultTheme="dark">
           <div className='page-body md:mx-12 md:border-l-2 md:border-r-2 border-black dark:border-white'>
-            <header className="py-2 mb-8 md:mb-24 border-b-2 border-black dark:border-white">
-              <Container>
-                <div className="flex items-center justify-between py-6">
-                  <HomeLogoButton />
-                  <Navigation />
-                  <ThemeSwitch />
-                </div>
-              </Container>
-            </header>
+            <Header />
             <main>
               <Container>{children}</Container>
             </main>

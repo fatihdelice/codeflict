@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function Navigation() {
   return (
-    <nav className='w-full lg:w-auto mt-2 lg:flex lg:mt-0"'>
+    <nav className='w-full lg:w-auto mt-2 lg:flex lg:mt-0 hidden md:block'>
       <ul className='flex flex-col lg:flex-row lg:gap-3'>
         <li>
           <Link href="/about" className="flex lg:px-3 py-2 items-center text-gray-600 dark:text-slate-300 hover:text-gray-900 dark:hover:text-white">
