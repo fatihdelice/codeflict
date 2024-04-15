@@ -1,4 +1,4 @@
-# codeflict.com
+# Codeflict Next.js Project
 
 ## Getting Started
 
