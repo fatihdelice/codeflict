@@ -1,0 +1,52 @@
+---
+title: Adding Reading Time Feature for Markdown Blog Projects with React
+authorUrl: fatihdelice
+authorName: Fatih Delice
+authorProfileImageUrl: https://avatars.githubusercontent.com/u/53579912?v=4
+description: This article guides how to add a reading time feature to Markdown blogs using React, using the blog-reading-time npm package for estimating reading duration.
+date: 2024-04-16
+---
+
+In this article, I'll discuss how to add a feature that provides an estimated reading time for a post in a React project.
+
+You can take a look at a Medium article that inspired me while writing this article. The engineers at Medium have explained how they implemented a reading time feature for their sites in this article.
+
+They adopted this feature by acknowledging that the reading time is just an estimate and doesn't take into account the reader's ability or the complexity of the article.
+
+To add the estimated reading time feature to our React project, we will use the blog-reading-time npm package. Let's start by installing the npm package.
+
+Run the following code block in your terminal to include the package files in our project.
+
+```bash
+npm i blog-reading-time
+```
+
+Then, we need to import the npm package into the project file where we'll use the feature.
+
+```jsx
+import getReadingTime from 'blog-reading-time';
+```
+
+Now, by adding the data of the content for which we want to calculate the reading time to the getReadingTime() function we imported, we can reach the result.
+
+
+```jsx
+getReadingTime(blogContent);
+```
+
+Your project's overall structure should look like the following:
+```jsx
+import getReadingTime from 'blog-reading-time';
+
+function App() {
+
+    const blogContent = "This is an example text";
+
+    return (
+        <div>
+          {getReadingTime(blogContent)} minutes read
+        </div>
+    )
+}
+```
+Feel free to share your questions and thoughts about this article in the comments section below. You can click on the applause icon to support me. Until next time in my next article...
