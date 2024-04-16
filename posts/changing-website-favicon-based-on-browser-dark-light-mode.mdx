@@ -1,0 +1,47 @@
+---
+title: Changing Website Favicon Based on Browser Dark/Light Mode
+authorUrl: fatihdelice
+authorName: Fatih Delice
+authorProfileImageUrl: https://avatars.githubusercontent.com/u/53579912?v=4
+description: Dynamic switching of website favicons based on the browser's light or dark mode enhances user experience and ensures visual consistency.
+date: 2024-04-16
+---
+
+You can change a website's favicon based on whether the browser is in light or dark mode. Adapting the website's favicon to match the browser's light or dark mode can enhance user experience and ensure visual consistency. Here are some reasons:
+
+- **Visual Consistency:** Light or dark mode alters the color and contrast of the browser's interface. Adapting the website favicon to these changes can make user interactions with the website more consistent and cohesive.
+
+- **Perceptual Awareness:** Users notice a difference in the appearance of a website when transitioning between light and dark modes. Having the favicon respond to mode changes can signal to users that the website has transitioned to a different mode, thus providing a better user experience.
+
+- **Functional Differentiation:** Light and dark modes help users adapt to the browser's interface. Having the website favicon compatible with these modes can facilitate users in distinguishing the website from the browser interface, thereby enhancing the website's recognizability.
+
+- **Visual Communication:** Favicon is associated with the website's brand identity and plays a significant role in introducing the website to users. Having the favicon adapt to light and dark modes ensures consistent visual communication with the brand identity, conveying a sense of professionalism and thoughtfulness to users.
+
+In summary, using a favicon that adapts to the browser's light or dark mode is an important step to improve user experience, maintain website consistency, and support brand identity communication.
+
+
+You can achieve this using JavaScript. First, you need to detect whether the browser is in light or dark mode. You can use the `window.matchMedia()` method for this purpose. You can check the browser's theme with the relevant media query. For example:
+
+```javascript
+var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+```
+
+The prefersDarkMode variable indicates whether the browser is in dark mode. It shows true when in dark mode and false when in light mode.
+
+Then, to change the favicon, you can target the `<link>` tag in the `<head>` section of HTML. You can change the favicon by modifying the href attribute using JavaScript.
+
+```javascript
+var favicon = document.querySelector("link[rel='icon']");
+
+if (prefersDarkMode) {
+  favicon.href = "light-favicon.ico";
+} else {
+  favicon.href = "dark-favicon.ico";
+}
+```
+
+The above code uses a dark-colored favicon named light-favicon.ico when the browser switches to dark mode. It uses a light-colored favicon named dark-favicon.ico when the browser switches to light mode.
+
+However, using JavaScript to change the favicon has some limitations. For example, the favicon may not change until the browser page is fully loaded or may not work in some browsers. Therefore, ensuring that this method works seamlessly in all browsers and conditions can be challenging.
+
+Additionally, using a different favicon instead of changing the favicon's colors can be a viable solution. This allows browsers to automatically adjust contrasts in light and dark modes.

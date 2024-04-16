@@ -1,0 +1,67 @@
+---
+title: What is a Pull Request? How to Make One? | GitHub
+authorUrl: fatihdelice
+authorName: Fatih Delice
+authorProfileImageUrl: https://avatars.githubusercontent.com/u/53579912?v=4
+description: A GitHub Pull Request is a way to propose and review code changes in a project before merging them into the main codebase.
+date: 2024-04-16
+---
+
+### What is a GitHub Pull Request?
+A GitHub Pull Request is a method used to contribute code to a project. This method involves other members of the project reviewing and approving your code changes or suggesting modifications. Pull Request is a feature provided by GitHub and is used in many open-source projects.
+
+### How to Make a Pull Request?
+1. **Forking the Project**
+
+    First, you need to fork the project you want to contribute to your own account. This allows you to create a copy of the project in your own account.
+
+    Click the Fork button on the GitHub web interface to fork the project.
+
+2. **Cloning the Project**
+
+    To make changes to the project on your computer, you need to clone the project you forked to your computer. You can do this using the `git clone` command from the Git command line.
+
+    ```bash
+    git clone https://github.com/username/project-name.git
+    ```
+
+3. **Creating a Branch**
+
+    After cloning the project, you need to create a branch to make code changes. This allows you to work on your changes without affecting the main branch of the project and allows other members to see the current state of the project. Use the following command to create a new branch:
+
+    ```bash
+    git checkout -b new-branch-name
+    ```
+
+4. **Making Code Changes**
+
+    Open the files you want to make changes to and make the necessary modifications. After making the changes, use the `git add` and `git commit` commands to save your changes.
+
+    ```bash
+    # Add the modified files to git
+    git add file-name
+    # Commit the changes to git
+    git commit -m "Description of the changes"
+    ```
+
+5. **Pushing Changes**
+
+    Push your code changes to your GitHub account. This allows your code changes to be visible on GitHub.
+
+    ```bash
+    git push origin new-branch
+    ```
+
+6. **Submitting Changes**
+
+    Finally, create a Pull Request for the project owner or maintainers to review. This is a request for the code changes to be reviewed and approved.
+
+    To submit your changes to the main branch of the project, click the Pull Request button on the web interface of the cloned project. On the opened page, describe your changes and click the `Create Pull Request` button.
+
+7. **Review and Approval**
+
+    Other members of the project will review your Pull Request and may approve it or suggest changes. If changes are suggested, make the modifications and again use the `git add`, `git commit`, and `git push` commands to submit the changes.
+
+    If the Pull Request is accepted, the changes will be merged into the main branch of the project, and your code will be added to the project.
+
+> This provides a detailed explanation of how to make a GitHub Pull Request. As you become more familiar with Git and GitHub, these processes will become easier.
