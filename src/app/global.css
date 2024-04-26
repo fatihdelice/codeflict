@@ -236,3 +236,8 @@ body{
 .page-body{
   background: hsl(var(--background));
 }
+
+.home-logo-text{
+  font-family: "Asap", sans-serif;
+  font-weight: 600;
+}

@@ -52,7 +52,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <ThemeProvider attribute="class" defaultTheme="dark">
+        <ThemeProvider attribute="class" defaultTheme="light">
           <div className='page-body md:mx-12 md:border-l-2 md:border-r-2 border-black dark:border-white'>
             <Header />
             <main>
