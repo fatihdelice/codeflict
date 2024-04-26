@@ -25,7 +25,10 @@ export async function generateMetadata({
     return
   }
 
-  const { title, description, date, url } = post
+  const { title, description, date, url, postImageUrl } = post;
+  const meta = {
+    image: `${WEBSITE_HOST_URL}/og-preview.jpg`,
+  }
 
   return {
     title,
@@ -36,6 +39,11 @@ export async function generateMetadata({
       type: 'article',
       publishedTime: date,
       url: `${WEBSITE_HOST_URL}/posts/${url}`,
+      images: [
+        {
+          url: postImageUrl ? postImageUrl : meta.image,
+        },
+      ],
     },
     twitter: {
       title,

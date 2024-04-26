@@ -11,6 +11,7 @@ const meta = {
   description:
     'A blog packed with code snippets for software development enthusiasts. We provide in-depth reviews of the latest technologies and practical tips to enhance your coding skills.',
   image: `${WEBSITE_HOST_URL}/og-preview.jpg`,
+  keywords: 'software development, code, programming, blog, codeflict',
 }
 
 export const metadata: Metadata = {
