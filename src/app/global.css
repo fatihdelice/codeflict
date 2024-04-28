@@ -235,6 +235,7 @@ input[type='email'] {
 } */
 .page-body{
   background: hsl(var(--background));
+  min-height: 100vh;
 }
 
 .home-logo-text{
