@@ -228,11 +228,11 @@ input[type='email'] {
   color: rgb(255 126 51 / var(--tw-text-opacity));
 }
 
-body{
+/* body{
   background-image: url('/images/bg.svg');
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 .page-body{
   background: hsl(var(--background));
 }
