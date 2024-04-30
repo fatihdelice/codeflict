@@ -1,0 +1,30 @@
+---
+title: How to Make the Software Languages Used in Projects Uploaded to GitHub Appear as Desired
+authorUrl: fatihdelice
+authorName: Fatih Delice
+authorProfileImageUrl: https://avatars.githubusercontent.com/u/53579912?v=4
+description: This article guides how to add a reading time feature to Markdown blogs using React, using the blog-reading-time npm package for estimating reading duration.
+date: 2024-04-30
+---
+
+<p class="flex justify-center">
+    <img title="GitHub Project Language" alt="GitHub Project Language" src="/post_image/post_image_20240430_0.webp" />
+</p>
+
+Is the programming language of the project you uploaded to GitHub not appearing as you want? There's a very easy way to fix this. Before explaining this method, I want to touch on why we need such a thing; for example, you've created a project with TypeScript, and when you upload the project to GitHub, it shows that the project is CSS-intensive because there are mostly CSS lines in the project, whereas it should be shown as TypeScript, which is more accurate because it's a project written in TypeScript.
+
+When researching a project on GitHub, we usually search according to the language used in the project. In GitHub language-based searches, it shows repositories according to the programming language used most, so this editing we will do will help our project achieve more accurate results in language-based searches.
+
+So, if we come to how to make the software languages used in projects uploaded to GitHub appear as we want, first, we enter the repository of the relevant project. Then, we click on the "add file" button and click on the "create new file" button in the window that opens. This way, we will add a new file to our project.
+
+<p class="flex justify-center">
+    <img title="GitHub create new file" alt="GitHub create new file" src="/post_image/post_image_20240430_1.webp" />
+</p>
+
+Next, we specify the name of the file as ".gitattributes". As content, we should write the file we want to be ignored. For example, I want to hide CSS. Therefore, in the content part, I write " *.css linguist-detectable=false " and save it.
+
+<p class="flex justify-center">
+    <img title="GitHub gitattributes" alt="GitHub gitattributes" src="/post_image/post_image_20240430_2.webp" />
+</p>
+
+This way, we hide the specified language. There is no problem in the code structure; it just adjusts the percentage of the languages present in the repository.
