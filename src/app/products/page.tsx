@@ -2,7 +2,7 @@ import { WEBSITE_HOST_URL } from '@/lib/constants'
 import type { Metadata } from 'next'
 
 const meta = {
-  title: 'Producta',
+  title: 'Products',
   description: 'I like to blog about web development',
   url: `${WEBSITE_HOST_URL}/about`,
 }
