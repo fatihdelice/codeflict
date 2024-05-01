@@ -73,62 +73,6 @@ export default function About() {
               </Link>
             </div>
           </div>
-          {/* <a href="https://monomod.studio/" className="ring-1 lg:row-span-2 flex flex-col justify-between group hover:ring-primary/10 dark:hover:ring-white/20 duration-300 h-full dark:ring-white/10 ring-primary/5 lg:row-start-2 md:grid-cols-2 md:grid lg:gap-0 md:items-center md:gap-12 lg:grid-cols-none lg:col-start-2 lg:col-span-2 rounded-3xl p-8 bg-white dark:bg-[#1A1A1A] shadow-xl dark:shadow-thick">
-            <div>
-              <p className="ext-xl tracking-tight font-medium text-primary dark:text-white md:text-6xl">
-                Monomod
-              </p> <p className="mt-4 text-sm text-zinc-500 dark:text-zinc-400">
-                Design &amp; development subscriptions for startups.
-                <br /> <br />
-                Monomod streamlines the design process with a fixed monthly rate
-                and limitless design requests. Say goodbye to phone calls and
-                extensive contracts; reach out to Monomod directly at any time.
-                Embrace flexibility, pause or terminate your subscription whenever
-                you need.
-              </p>
-            </div>
-            <div className="mt-8">
-              <img src="/images/monomod.png" className="rounded-2xl group-hover:ring-white/20 duration-300 invert dark:invert-0 aspect-[4/4] bg-primary/5 dark:bg-primary ring-1 ring-white/10  object-cover" alt="" />
-            </div>
-          </a> 
-          <div className="ring-1 dark:ring-white/10 ring-primary/5 shadow-xl dark:shadow-thick rounded-3xl lg:col-span-2 p-8 h-full flex flex-col justify-between bg-white dark:bg-transparent">
-            <p className="text-xl tracking-tight font-medium text-primary dark:text-white md:text-5xl">
-              Testimonials
-            </p>
-            <div className="md:grid md:grid-cols-2 gap-6 lg:grid-cols-1">
-              <div className="mt-4">
-                <p className="text-sm text-pink-500 dark:text-pink-400">
-                  &quot;Big fan of your themes. They&apos;re well-organized, look clean, and
-                  are fast.&quot;
-                </p>
-                <p className="text-xs mt-2 text-zinc-500">
-                  <span className="block text-xs">Kevin Focke</span>
-                  <span className="block text-xs"> Developer</span>
-                </p>
-              </div>
-              <div className="mt-4">
-                <p className="text-sm text-orange-500 dark:text-orange-300">
-                  &quot;Amazing resource using @astrodotbuild and @tailwindcss! I got it
-                  a week ago and have found the contents really useful. 5/5&quot;
-                </p>
-                <p className="text-xs mt-2 text-zinc-500">
-                  <span className="block text-xs">Alonso</span>
-                  <span className="block text-xs"> Entrepreneur</span>
-                </p>
-              </div>
-              <div className="mt-4">
-                <p className="text-sm text-orange-500 dark:text-orange-300">
-                  &quot;Amazing resource using @astrodotbuild and @tailwindcss! I got it
-                  a week ago and have found the contents really useful. 5/5&quot;
-                </p>
-                <p className="text-xs mt-2 text-zinc-500">
-                  <span className="block text-xs">Alonso</span>
-                  <span className="block text-xs"> Entrepreneur</span>
-                </p>
-              </div>
-            </div>
-          </div>
-          */}
           <div className="ring-1 dark:ring-white/10 ring-primary/5 flex flex-col p-8 h-full justify-center items-center rounded-3xl overflow-hidden relative lg:col-span-3 lg:row-start-2 bg-white dark:bg-transparent shadow-xl dark:shadow-thick">
             <div className="relative p-8 text-center w-full">
               <p className="text-xl tracking-tight font-medium text-primary dark:text-white md:text-6xl">
