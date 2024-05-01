@@ -31,7 +31,7 @@ export default function About() {
     <section>
       <div className="p-4">
         <div className="grid grid-cols-1 gap-4 list-none lg:grid-cols-3 lg:grid-rows-3 xl:grid-cols-3 xl:grid-rows-3">
-          <div className="lg:row-span-2 ring-1 dark:ring-white/10 ring-primary/5 bg-white dark:bg-[#1E1E1E] shadow-xl dark:shadow-thick rounded-3xl p-8">
+          <div className="lg:row-span-2 ring-1 dark:ring-white/10 ring-primary/5 bg-white dark:bg-[#1A1A1A] shadow-xl dark:shadow-thick rounded-3xl p-8">
             <p className="text-3xl mt-6 font-medium lg:text-4xl tracking-tight text-primary dark:text-white">
               Hello and welcome to Codeflict!
             </p>
@@ -41,15 +41,15 @@ export default function About() {
               We provide in-depth reviews of the latest technologies and practical tips to enhance your coding skills.
               <br /> <br />
               Codeflict is here to guide you through the ever-evolving and changing landscape of the software world.
-              We're here to share the latest developments in the industry and help you advance your software skills even further.
+              We&apos;re here to share the latest developments in the industry and help you advance your software skills even further.
               <br /> <br />
-              If you're looking to learn something new about the world of software and expand your knowledge, you've come to the right place.
-              We're excited to work with you to build a better future together at Codeflict.
+              If you&apos;re looking to learn something new about the world of software and expand your knowledge, you&apos;ve come to the right place.
+              We&apos;re excited to work with you to build a better future together at Codeflict.
               <br /> <br />
               We look forward to having you among us!
             </p>
           </div>
-          <div className="ring-1 dark:ring-white/10 ring-primary/5 rounded-3xl justify-between shadow-xl dark:shadow-thick items-center flex flex-col p-8 h-full bg-white  dark:bg-[#1E1E1E]">
+          <div className="ring-1 dark:ring-white/10 ring-primary/5 rounded-3xl justify-between shadow-xl dark:shadow-thick items-center flex flex-col p-8 h-full bg-white  dark:bg-[#1A1A1A]">
             <div className="w-full">
               <p className="text-xl font-normal tracking-tight text-primary dark:text-white lg:text-8xl">
                 Find me on
@@ -73,12 +73,12 @@ export default function About() {
               </Link>
             </div>
           </div>
-          <a href="https://www.figma.com/@mikeandreuzza" className="ring-1 items-center h-full flex p-8 flex-col justify-center hover:ring-primary/5 dark:hover:ring-white/20 dark:ring-white/10 ring-primary/5 relative rounded-3xl overflow-hidden bg-white dark:bg-[#1E1E1E] shadow-xl dark:shadow-thick">
+          <a href="https://www.figma.com/@mikeandreuzza" className="ring-1 items-center h-full flex p-8 flex-col justify-center hover:ring-primary/5 dark:hover:ring-white/20 dark:ring-white/10 ring-primary/5 relative rounded-3xl overflow-hidden bg-white dark:bg-[#1A1A1A] shadow-xl dark:shadow-thick">
             <svg className="w-24 h-24 lg:w-48 xl:h-64 xl:w-64 lg:h-48" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clipPath="url(#clip0_1_136)"> <path d="M45 45.5C45 42.9804 46.0009 40.5641 47.7825 38.7825C49.5641 37.0009 51.9804 36 54.5 36C57.0196 36 59.4359 37.0009 61.2175 38.7825C62.9991 40.5641 64 42.9804 64 45.5C64 48.0196 62.9991 50.4359 61.2175 52.2175C59.4359 53.9991 57.0196 55 54.5 55C51.9804 55 49.5641 53.9991 47.7825 52.2175C46.0009 50.4359 45 48.0196 45 45.5Z" fill="#1ABCFE"></path> <path d="M26 64.5C26 61.9804 27.0009 59.5641 28.7825 57.7825C30.5641 56.0009 32.9804 55 35.5 55H45V64.5C45 67.0196 43.9991 69.4359 42.2175 71.2175C40.4359 72.9991 38.0196 74 35.5 74C32.9804 74 30.5641 72.9991 28.7825 71.2175C27.0009 69.4359 26 67.0196 26 64.5V64.5Z" fill="#0ACF83"></path> <path d="M45 17V36H54.5C57.0196 36 59.4359 34.9991 61.2175 33.2175C62.9991 31.4359 64 29.0196 64 26.5C64 23.9804 62.9991 21.5641 61.2175 19.7825C59.4359 18.0009 57.0196 17 54.5 17H45Z" fill="#FF7262"></path> <path d="M26 26.5C26 29.0196 27.0009 31.4359 28.7825 33.2175C30.5641 34.9991 32.9804 36 35.5 36H45V17H35.5C32.9804 17 30.5641 18.0009 28.7825 19.7825C27.0009 21.5641 26 23.9804 26 26.5V26.5Z" fill="#F24E1E"></path> <path d="M26 45.5C26 48.0196 27.0009 50.4359 28.7825 52.2175C30.5641 53.9991 32.9804 55 35.5 55H45V36H35.5C32.9804 36 30.5641 37.0009 28.7825 38.7825C27.0009 40.5641 26 42.9804 26 45.5V45.5Z" fill="#A259FF"></path> </g> <defs> <clipPath id="clip0_1_136"> <rect width="38" height="57" fill="white" transform="translate(26 17)"></rect> </clipPath> </defs> </svg> <p className="text-xl  text-primary dark:text-white lg:text-2xl mt-6">
               Figma Community
             </p>
           </a>
-          {/* <a href="https://monomod.studio/" className="ring-1 lg:row-span-2 flex flex-col justify-between group hover:ring-primary/10 dark:hover:ring-white/20 duration-300 h-full dark:ring-white/10 ring-primary/5 lg:row-start-2 md:grid-cols-2 md:grid lg:gap-0 md:items-center md:gap-12 lg:grid-cols-none lg:col-start-2 lg:col-span-2 rounded-3xl p-8 bg-white dark:bg-[#1E1E1E] shadow-xl dark:shadow-thick">
+          {/* <a href="https://monomod.studio/" className="ring-1 lg:row-span-2 flex flex-col justify-between group hover:ring-primary/10 dark:hover:ring-white/20 duration-300 h-full dark:ring-white/10 ring-primary/5 lg:row-start-2 md:grid-cols-2 md:grid lg:gap-0 md:items-center md:gap-12 lg:grid-cols-none lg:col-start-2 lg:col-span-2 rounded-3xl p-8 bg-white dark:bg-[#1A1A1A] shadow-xl dark:shadow-thick">
             <div>
               <p className="ext-xl tracking-tight font-medium text-primary dark:text-white md:text-6xl">
                 Monomod
@@ -96,15 +96,15 @@ export default function About() {
               <img src="/images/monomod.png" className="rounded-2xl group-hover:ring-white/20 duration-300 invert dark:invert-0 aspect-[4/4] bg-primary/5 dark:bg-primary ring-1 ring-white/10  object-cover" alt="" />
             </div>
           </a> */}
-          <div className="ring-1 dark:ring-white/10 ring-primary/5 shadow-xl dark:shadow-thick rounded-3xl lg:col-span-2 p-8 h-full flex flex-col justify-between bg-white dark:bg-[#1E1E1E]">
+          <div className="ring-1 dark:ring-white/10 ring-primary/5 shadow-xl dark:shadow-thick rounded-3xl lg:col-span-2 p-8 h-full flex flex-col justify-between bg-white dark:bg-[#1A1A1A]">
             <p className="text-xl tracking-tight font-medium text-primary dark:text-white md:text-5xl">
               Testimonials
             </p>
             <div className="md:grid md:grid-cols-2 gap-6 lg:grid-cols-1">
               <div className="mt-4">
                 <p className="text-sm text-pink-500 dark:text-pink-400">
-                  "Big fan of your themes. They're well-organized, look clean, and
-                  are fast."
+                &quot;Big fan of your themes. They&apos;re well-organized, look clean, and
+                  are fast.&quot;
                 </p>
                 <p className="text-xs mt-2 text-zinc-500">
                   <span className="block text-xs">Kevin Focke</span>
@@ -113,8 +113,8 @@ export default function About() {
               </div>
               <div className="mt-4">
                 <p className="text-sm text-orange-500 dark:text-orange-300">
-                  "Amazing resource using @astrodotbuild and @tailwindcss! I got it
-                  a week ago and have found the contents really useful. 5/5
+                &quot;Amazing resource using @astrodotbuild and @tailwindcss! I got it
+                  a week ago and have found the contents really useful. 5/5&quot;
                 </p>
                 <p className="text-xs mt-2 text-zinc-500">
                   <span className="block text-xs">Alonso</span>
@@ -123,8 +123,8 @@ export default function About() {
               </div>
               <div className="mt-4">
                 <p className="text-sm text-orange-500 dark:text-orange-300">
-                  "Amazing resource using @astrodotbuild and @tailwindcss! I got it
-                  a week ago and have found the contents really useful. 5/5
+                &quot;Amazing resource using @astrodotbuild and @tailwindcss! I got it
+                  a week ago and have found the contents really useful. 5/5&quot;
                 </p>
                 <p className="text-xs mt-2 text-zinc-500">
                   <span className="block text-xs">Alonso</span>
@@ -133,7 +133,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="ring-1 dark:ring-white/10 ring-primary/5 flex flex-col p-8 h-full justify-center items-center rounded-3xl overflow-hidden relative lg:col-span-3 lg:row-start-3 bg-white dark:bg-[#1E1E1E] shadow-xl dark:shadow-thick">
+          <div className="ring-1 dark:ring-white/10 ring-primary/5 flex flex-col p-8 h-full justify-center items-center rounded-3xl overflow-hidden relative lg:col-span-3 lg:row-start-3 bg-white dark:bg-[#1A1A1A] shadow-xl dark:shadow-thick">
             <div className="relative p-8 text-center w-full">
               <p className="text-xl tracking-tight font-medium text-primary dark:text-white md:text-6xl">
                 Subscribe
