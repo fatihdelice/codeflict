@@ -54,7 +54,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <ThemeProvider attribute="class" defaultTheme="light">
-          <div className='page-body md:mx-12 md:border-l-2 md:border-r-2 border-black dark:border-white'>
+          <div className='page-body md:mx-12'>
             <Header />
             <main>
               <Container>{children}</Container>

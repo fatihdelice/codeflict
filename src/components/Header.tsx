@@ -15,7 +15,7 @@ export default function Header() {
     };
     return (
         <>
-            <header className="py-2 mb-8 md:mb-24 border-b-2 border-black dark:border-white">
+            <header className="py-2 mb-8 md:mb-24">
                 <Container>
                     <div className="flex items-center justify-between py-6 gap-4">
                         <HomeLogoButton />
