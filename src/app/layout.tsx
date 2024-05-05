@@ -2,9 +2,9 @@ import { ThemeProvider } from '@/app/providers'
 import { Container } from '@/components/Container'
 import { WEBSITE_HOST_URL } from '@/lib/constants'
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import './global.css'
 import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 const meta = {
   title: 'Codeflict',
@@ -49,7 +49,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const currentYear = new Date().getFullYear();
   return (
     <html lang="en">
       <body>
@@ -59,18 +58,8 @@ export default function RootLayout({
             <main>
               <Container>{children}</Container>
             </main>
-            <footer className="py-16 text-gray-400">
-              <Container>
-                <p>
-                  {currentYear} {' '}
-                  <Link className="link text-gray-400 underline" href="https://codeflict.com/">
-                    Codeflict
-                  </Link>
-                  {' '} - All right reserved
-                </p>
-              </Container>
-            </footer>
           </div>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

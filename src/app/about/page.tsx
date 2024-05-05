@@ -30,7 +30,7 @@ export default function About() {
 
     <section>
       <div className="p-4">
-        <div className="grid grid-cols-1 gap-4 list-none lg:grid-cols-3 lg:grid-rows-3 xl:grid-cols-3 xl:grid-rows-3">
+        <div className="grid grid-cols-1 gap-4 list-none lg:grid-cols-3 lg:grid-rows-2 xl:grid-cols-3 xl:grid-rows-2">
           <div className="lg:col-span-2 ring-1 dark:ring-white/10 ring-primary/5 bg-white dark:bg-transparent shadow-xl dark:shadow-thick rounded-3xl p-8">
             <p className="text-3xl mt-6 font-medium lg:text-4xl tracking-tight text-primary dark:text-white">
               Hello and welcome to Codeflict!
