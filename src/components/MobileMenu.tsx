@@ -6,19 +6,13 @@ import Link from 'next/link'
 
 export default function MobileMenu({ toggleMobileMenu }) {
     return (
-        <div className="fixed top-0 left-0 w-full flex-col flex h-full bg-white dark:bg-black z-40">
-            <header className="py-2 mb-8 md:mb-24 border-b-2 border-black dark:border-white">
-                <Container>
-                    <div className="flex items-center justify-between py-6 gap-4">
-                        <HomeLogoButton />
-                        <ThemeSwitch />
-                        <MobileHeaderLogo toggleMobileMenu={toggleMobileMenu} />
-                    </div>
-                </Container>
-            </header>
+        <div className="fixed top-0 left-0 w-full flex-col flex h-full bg-white dark:bg-black pt-[80px] z-40">
             <div className="flex-1 overflow-auto p-6 border-t border-white/10">
                 <Container>
                     <nav className="grid gap-y-4">
+                        <Link href="/blog" className="flex items-center text-2xl py-1.5 px-4">
+                            <span>Blog</span>
+                        </Link>
                         <Link href="/about" className="flex items-center text-2xl py-1.5 px-4">
                             <span>About</span>
                         </Link>

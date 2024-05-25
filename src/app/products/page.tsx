@@ -1,5 +1,6 @@
 import { WEBSITE_HOST_URL } from '@/lib/constants'
 import type { Metadata } from 'next'
+import { Navigation } from '@/components/nav'
 
 const meta = {
   title: 'Products',
@@ -26,9 +27,14 @@ export const metadata: Metadata = {
 
 export default function Products() {
   return (
-    <div className="space-y-7">
-      <h1>Products</h1>
-      <p>Something new is coming.</p>
+    <div>
+      <Navigation />
+      <div className='bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 pt-24 lg:pt-32 pb-8 h-screen'>
+        <div className="space-y-7 mx-auto max-w-2xl px-6 lg:max-w-6xl">
+          <h1>Products</h1>
+          <p>Something new is coming.</p>
+        </div>
+      </div>
     </div>
   )
 }

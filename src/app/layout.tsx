@@ -1,10 +1,6 @@
-import { ThemeProvider } from '@/app/providers'
-import { Container } from '@/components/Container'
 import { WEBSITE_HOST_URL } from '@/lib/constants'
 import type { Metadata } from 'next'
-import './global.css'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
+import './global.css';
 
 const meta = {
   title: 'Codeflict',
@@ -50,17 +46,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>
-        <ThemeProvider attribute="class" defaultTheme="light">
-          <div className='page-body md:mx-12'>
-            <Header />
-            <main>
-              <Container>{children}</Container>
-            </main>
-          </div>
-          <Footer />
-        </ThemeProvider>
+    <html lang="en" className="dark">
+      <body className='bg-black'>
+        {children}
       </body>
     </html>
   )
