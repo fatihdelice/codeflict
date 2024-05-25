@@ -1,3 +1,4 @@
+import { Navigation } from '@/components/nav'
 import { WEBSITE_HOST_URL } from '@/lib/constants'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -27,9 +28,9 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-
-    <section>
-      <div className="p-4">
+    <div className='bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0'>
+      <Navigation />
+      <section className="mx-auto max-w-2xl px-6 lg:max-w-6xl pt-24 lg:pt-32 pb-8">
         <div className="grid grid-cols-1 gap-4 list-none lg:grid-cols-3 lg:grid-rows-2 xl:grid-cols-3 xl:grid-rows-2">
           <div className="lg:col-span-2 ring-1 dark:ring-white/10 ring-primary/5 bg-white dark:bg-transparent shadow-xl dark:shadow-thick rounded-3xl p-8">
             <p className="text-3xl mt-6 font-medium lg:text-4xl tracking-tight text-primary dark:text-white">
@@ -89,7 +90,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   )
 }

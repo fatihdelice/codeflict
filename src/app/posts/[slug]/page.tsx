@@ -7,6 +7,7 @@ import { useMDXComponent } from 'next-contentlayer/hooks'
 import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
+import { Navigation } from '@/components/nav'
 
 export async function generateStaticParams() {
   return allPosts.map((post) => ({
@@ -71,7 +72,8 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
   const MDXContent = useMDXComponent(post.body.code)
 
   return (
-    <div>
+    <div className='mx-auto max-w-2xl px-6 lg:max-w-6xl pt-24 lg:pt-32 pb-8'>
+      <Navigation />
       <h1>{post.title}</h1>
       {
         post.authorUrl && post.authorName && post.authorProfileImageUrl && (
