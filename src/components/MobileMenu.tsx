@@ -1,7 +1,4 @@
 import { Container } from "./Container"
-import { HomeLogoButton } from "./HomeLogoButton"
-import MobileHeaderLogo from "./MobileHeaderLogo"
-import ThemeSwitch from "./ThemeSwitch"
 import Link from 'next/link'
 
 export default function MobileMenu({ toggleMobileMenu }) {
