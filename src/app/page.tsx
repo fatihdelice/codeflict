@@ -12,8 +12,8 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
       <nav className="my-16 animate-fade-in">
         <ul className="flex items-center justify-center gap-4">
-          {navigation.map((item) => (
-            <li>
+          {navigation.map((item, index) => (
+            <li key={index}>
               <Link
                 key={item.href}
                 href={item.href}
