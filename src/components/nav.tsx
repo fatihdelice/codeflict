@@ -39,18 +39,21 @@ export const Navigation: React.FC = () => {
                             <Link
                                 href="/blog"
                                 className="duration-200 text-zinc-400 hover:text-zinc-100"
+                                title="Codeflict Blog"
                             >
                                 Blog
                             </Link>
                             <Link
                                 href="/about"
                                 className="duration-200 text-zinc-400 hover:text-zinc-100"
+                                title="About Codeflict"
                             >
                                 About
                             </Link>
                             <Link
                                 href="/products"
                                 className="duration-200 text-zinc-400 hover:text-zinc-100 flex items-center"
+                                title="Codeflict Products"
                             >
                                 Products
                                 <span className="ml-1 px-2 py-0.5 animate-pulse flex rounded-full bg-gray-700 text-xs tracking-wider dark:bg-white/10 text-green-400 dark:text-orange-300"> new</span>
@@ -60,6 +63,7 @@ export const Navigation: React.FC = () => {
                         <Link
                             href="/"
                             className="duration-200 text-zinc-300 hover:text-zinc-100"
+                            title="Codeflict Home"
                         >
                             <ArrowLeft className="w-6 h-6 " />
                         </Link>

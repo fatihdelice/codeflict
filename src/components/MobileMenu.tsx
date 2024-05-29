@@ -7,13 +7,13 @@ export default function MobileMenu({ toggleMobileMenu }) {
             <div className="flex-1 overflow-auto p-6 border-t border-white/10">
                 <Container>
                     <nav className="grid gap-y-4">
-                        <Link href="/blog" className="flex items-center text-2xl py-1.5 px-4">
+                        <Link href="/blog" className="flex items-center text-2xl py-1.5 px-4" title="Codeflict Blog">
                             <span>Blog</span>
                         </Link>
-                        <Link href="/about" className="flex items-center text-2xl py-1.5 px-4">
+                        <Link href="/about" className="flex items-center text-2xl py-1.5 px-4" title="About Codeflict">
                             <span>About</span>
                         </Link>
-                        <Link href="/products" className="flex items-center text-2xl py-1.5 px-4">
+                        <Link href="/products" className="flex items-center text-2xl py-1.5 px-4" title="Codeflict Products">
                             <span>Products</span>
                             <span className="ml-1 px-2 py-0.5 animate-pulse flex rounded-full bg-gray-700 text-xs tracking-wider dark:bg-white/10 text-green-400 dark:text-orange-300"> new</span>
                         </Link>
