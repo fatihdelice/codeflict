@@ -7,7 +7,7 @@ const meta = {
   description:
     'A blog packed with code snippets for software development enthusiasts. We provide in-depth reviews of the latest technologies and practical tips to enhance your coding skills.',
   image: `${WEBSITE_HOST_URL}/og-preview.jpg`,
-  keywords: 'software development, code, programming, blog, codeflict',
+  keywords: 'codeflict, software development, code, programming, blog, html, css, css tricks, java, dotnet, react, react native, angular, code flict, codeflict blog',
 }
 
 export const metadata: Metadata = {
@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     default: meta.title,
     template: '%s | Codeflict',
   },
+  keywords: meta.keywords,
   description: meta.description,
   openGraph: {
     title: meta.title,
