@@ -37,17 +37,11 @@ export default function About() {
               Hello and welcome to Codeflict!
             </h1>
             <p className="mt-4 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-xl">
-              We are a team dedicated to shaping a world with reimagination.
-              Our blog is filled with code snippets for software development enthusiasts.
-              We provide in-depth reviews of the latest technologies and practical tips to enhance your coding skills.
+              At Codeflict, we are dedicated to shaping a world through reimagination and innovation. We are not just a blog but a comprehensive platform for all things related to software development, web development, and mobile application development. We provide in-depth reviews of the latest technologies and offer practical tips to enhance your coding skills.
               <br /> <br />
-              Codeflict is here to guide you through the ever-evolving and changing landscape of the software world.
-              We&apos;re here to share the latest developments in the industry and help you advance your software skills even further.
+              Our mission is to guide you through the ever-evolving landscape of the software world. Whether you&apos;re a beginner looking to learn the basics or an experienced developer seeking to stay updated with the latest trends, Codeflict is here to support your journey. We are committed to sharing the latest developments in the industry and helping you advance your skills to new heights.
               <br /> <br />
-              If you&apos;re looking to learn something new about the world of software and expand your knowledge, you&apos;ve come to the right place.
-              We&apos;re excited to work with you to build a better future together at Codeflict.
-              <br /> <br />
-              We look forward to having you among us!
+              Join us at Codeflict to learn, grow, and build a better future together. We look forward to having you as part of our community!
             </p>
           </div>
           <div className="ring-1 dark:ring-white/10 ring-primary/5 rounded-3xl justify-between shadow-xl dark:shadow-thick items-center flex flex-col p-8 h-full bg-white  dark:bg-transparent">
