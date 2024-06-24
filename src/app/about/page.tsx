@@ -37,7 +37,7 @@ export default function About() {
               Hello and welcome to Codeflict!
             </h1>
             <p className="mt-4 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-xl">
-              At Codeflict, we are dedicated to shaping a world through reimagination and innovation. We are not just a blog but a comprehensive platform for all things related to software development, web development, and mobile application development. We provide in-depth reviews of the latest technologies and offer practical tips to enhance your coding skills.
+              At Codeflict, we are dedicated to shaping a world through reimagination and innovation. We are a comprehensive platform for all things related to software development, web development, and mobile application development. We provide in-depth reviews of the latest technologies and offer practical tips to enhance your coding skills.
               <br /> <br />
               Our mission is to guide you through the ever-evolving landscape of the software world. Whether you&apos;re a beginner looking to learn the basics or an experienced developer seeking to stay updated with the latest trends, Codeflict is here to support your journey. We are committed to sharing the latest developments in the industry and helping you advance your skills to new heights.
               <br /> <br />
