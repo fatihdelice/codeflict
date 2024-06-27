@@ -51,7 +51,7 @@ export default function Home() {
           <Link className="text-[#848580] hover:text-white underline" href="https://x.com/codeflict" title="Codeflict X">
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="m3 21l7.548-7.548M21 3l-7.548 7.548m0 0L8 3H3l7.548 10.452m2.904-2.904L21 21h-5l-5.452-7.548" color="currentColor" /></svg>
           </Link>
-          <Link className="text-[#848580] hover:text-white underline" href="https://www.youtube.com/channel/UCGRqzpA3ftd1RgnvxpPM2vw" title="Codeflict YouTube">
+          <Link className="text-[#848580] hover:text-white underline" href="https://www.youtube.com/fatihdelice?sub_confirmation=1" title="Codeflict YouTube">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="m10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9c.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83c-.25.9-.83 1.48-1.73 1.73c-.47.13-1.33.22-2.65.28c-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44c-.9-.25-1.48-.83-1.73-1.73c-.13-.47-.22-1.1-.28-1.9c-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83c.25-.9.83-1.48 1.73-1.73c.47-.13 1.33-.22 2.65-.28c1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44c.9.25 1.48.83 1.73 1.73Z" /></svg>
           </Link>
           <Link className="text-[#848580] hover:text-white underline" href="https://github.com/codeflict" title="Codeflict GitHub">
