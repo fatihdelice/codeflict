@@ -77,7 +77,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
       <h1>{post.title}</h1>
       {
         post.authorUrl && post.authorName && post.authorProfileImageUrl && (
-          <Link href={"/"+`${post.authorUrl}`}>
+          <Link href={`${post.authorUrl}`} target='_blank'>
             <div className="overflow-visible relative max-w-sm mt-6 mb-4 flex items-center gap-4">
               <img className="w-14 h-14 rounded-full shadow-lg" src={post.authorProfileImageUrl} alt={post.authorName}/>
               <div className="flex flex-col py-5">
