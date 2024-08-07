@@ -41,7 +41,7 @@ export default function AppProductSlider() {
                 <div className="slider-container">
                     <div className="slide-area">
                         {imageUrls.map((image, index) => (
-                            <div key={index} className={`app-box ${activeImage === image.activeImage ? 'active dark:ring-[#C1FF14]' : 'dark:ring-white/10'} lg:col-span-2 ring-1 ring-primary/5 bg-white dark:bg-transparent shadow-xl dark:shadow-thick rounded-3xl p-4`}>
+                            <div key={index} className={`app-box ${activeImage === image.activeImage ? 'active dark:ring-[#C1FF14]' : 'dark:ring-white/10'} lg:col-span-2 ring-1 ring-primary/5 bg-white dark:bg-transparent shadow-xl dark:shadow-thick rounded-2xl p-2 flex items-center justify-center`}>
                                 <button onClick={() => handleClick(index)} title={image.name}>
                                     <img src={image.buttonImage} width="64" height="64" alt={image.name} className='w-14 h-14 sm:w-16 sm:h-16'/>
                                 </button>
@@ -95,7 +95,6 @@ export default function AppProductSlider() {
 
         .app-box {
           position: relative;
-          flex: 0 0 auto; /* Allow flexibility for positioning */
           transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
         }
 
