@@ -74,7 +74,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
   return (
     <div className='mx-auto max-w-2xl px-6 lg:max-w-6xl pt-24 lg:pt-32 pb-8'>
       <Navigation />
-      <h1>{post.title}</h1>
+      <h1 className='text-2xl sm:text-4xl '>{post.title}</h1>
       {
         post.authorUrl && post.authorName && post.authorProfileImageUrl && (
           <Link href={`${post.authorUrl}`} target='_blank'>
