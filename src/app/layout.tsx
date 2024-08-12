@@ -5,7 +5,7 @@ import './global.css';
 const meta = {
   title: 'Codeflict',
   description:
-    'Codeflict is packed with code snippets for software development enthusiasts, offering in-depth reviews of the latest technologies and practical tips to enhance your coding skills.',
+    'At Codeflict, we are dedicated to shaping a world through reimagination and innovation. We are a comprehensive platform for all things related to software development, web development, and mobile application development. We provide in-depth reviews of the latest technologies and offer practical tips to enhance your coding skills.',
   image: `${WEBSITE_HOST_URL}/og-preview.jpg`,
   keywords: 'codeflict, software development, code, programming, blog, html, css, css tricks, java, dotnet, react, react native, angular, code flict, codeflict blog',
 }
