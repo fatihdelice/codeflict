@@ -34,7 +34,7 @@ export function PostCard(post: Post) {
         {
           post.postImageUrl && (
             <div className='relative'>
-              <img src={post.postImageUrl} width={160} height={112} alt={post.title} className='w-20 h-14 sm:w-40 max-w-none rounded-s sm:max-h-28 sm:h-28 object-contain' />
+              <img src={post.postImageUrl} width={160} height={112} alt={post.title} className='w-20 h-14 sm:w-40 max-w-none rounded-sm sm:max-h-28 sm:h-28 object-contain' />
             </div>
           )
         }
